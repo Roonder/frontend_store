@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Store</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="img/logo.png" class="header__logo" alt="Logotipo Front End Store"/>
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a href="index.html" class="navegacion__enlace ">Tienda</a>
+        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>ReactJS</h1>
+
+        <div class="camisa">
+            <img src="img/3.jpg" alt="Imagen del Producto">
+
+        <div class="camisa__content">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam ac velit scelerisque euismod. Phasellus porttitor at purus id maximus. 
+            Pellentesque varius suscipit mattis. Aliquam efficitur ex velit, vitae maximus lorem posuere ut. Curabitur gravida pulvinar est, sed suscipit nunc.
+             Curabitur neque felis, congue et gravida sed, vehicula tristique nunc. Sed nec interdum arcu. Suspendisse vitae sollicitudin lectus.
+            </p>
+        
+            <form class="formulario">
+                <select class="formulario__campo">
+                    <option disabled selected>--Seleccione su talla--</option>
+                    <option>Talla S</option>
+                    <option>Talla M</option>
+                    <option>Talla L</option>
+                </select>
+
+                <input type="number" placeholder="Cantidad" min:"1" class="formulario__campo">
+                <input type="submit" value="Agregar al carrito" class="formulario__submit">
+            </form>
+        </div>
+        </div> <!-- .camisa -->
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2022.</p>
+    </footer>
+
+</body>
+</html>
